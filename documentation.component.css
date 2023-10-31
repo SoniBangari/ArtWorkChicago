@@ -1,0 +1,41 @@
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 0 15px;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-top: 0;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+  }
+  
+  ul {
+    margin-top: 0.5rem;
+  }
+  
+  li {
+    margin-top: 0.5rem;
+  }
+  
+  p {
+    line-height: 1.5;
+  }
+  
+  ol {
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  ol li {
+    margin-top: 0.5rem;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      max-width: 100%;
+    }
+  }
